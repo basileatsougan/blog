@@ -1,0 +1,44 @@
+.content-section {
+  padding: 4rem 0;
+  background-color: white;
+}
+
+.content-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.content-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.content-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #666;
+  text-align: justify;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .content-section {
+    padding: 2rem 0;
+  }
+  
+  .content-container {
+    padding: 0 1rem;
+  }
+  
+  .content-title {
+    font-size: 2rem;
+  }
+  
+  .content-text {
+    font-size: 1rem;
+  }
+}

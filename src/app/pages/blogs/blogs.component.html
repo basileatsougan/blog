@@ -1,0 +1,17 @@
+<div class="blogs-page">
+  <div class="blogs-hero">
+    <h1 class="blogs-title">Our Blog</h1>
+    <p class="blogs-subtitle">Discover our latest articles and insights</p>
+  </div>
+
+  <section class="blogs-section">
+    <div class="blogs-container">
+      <div class="blogs-grid">
+        <app-blog-card 
+          *ngFor="let post of blogPosts" 
+          [blogPost]="post">
+        </app-blog-card>
+      </div>
+    </div>
+  </section>
+</div>

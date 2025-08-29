@@ -1,0 +1,18 @@
+<app-hero></app-hero>
+
+<app-content-section 
+  title="Content One" 
+  content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione dolorem voluptates eveniet tempora ut cupiditate magnam, sapiente, hic quo in ipsum iste soluta eaque perferendis nihil recusandae dolore officia aperiam corporis similique. Facilis quos">
+</app-content-section>
+
+<section class="blog-section">
+  <div class="blog-container">
+    <h2 class="blog-section-title">Featured Blog Posts</h2>
+    <div class="blog-grid">
+      <app-blog-card 
+        *ngFor="let post of blogPosts" 
+        [blogPost]="post">
+      </app-blog-card>
+    </div>
+  </div>
+</section>
