@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+
 .navbar {
   background-color: #333;
-  padding: 1rem 0;
+  padding: 1.3rem 0;
   position: fixed;
   top: 0;
   left: 0;
@@ -22,7 +24,10 @@
   color: white;
   text-decoration: none;
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: 400;
+  font-family: "Kavoon", serif;
+  color: #c98608;
+
 }
 
 .navbar-menu {
@@ -39,7 +44,7 @@
 
 .nav-link:hover,
 .nav-link.active {
-  color: #007bff;
+  color: #c98608;
 }
 
 .navbar-toggle {

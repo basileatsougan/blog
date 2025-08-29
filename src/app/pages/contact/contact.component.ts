@@ -19,7 +19,7 @@ export class ContactComponent {
   onSubmit() {
     console.log('Contact form submitted:', this.contactForm);
     // Here you would typically send the form data to your backend
-    alert('Thank you for your message! We will get back to you soon.');
+    alert('Merci pour votre message ! Nous vous répondrons dans les plus brefs délais.');
     this.resetForm();
   }
 
