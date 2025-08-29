@@ -12,10 +12,13 @@ Pour voir le site en ligne, cliquez sur le lien Vercel : [Voir le site](https://
 
 Voici quelques captures d'écran du site :
 
-| Accueil | Page Article | Page Blog |
-|---------|--------------|-----------|
-| ![Accueil](./src/assets/images/bg1.png) | ![Article](./src/assets/images/bg2.png) | ![Blog](./src/assets/images/bg3.png) |
+![image 1](./src/assets/images/bg1.png) 
 
+![image 2](./src/assets/images/bg2.png) 
+
+![image 1](./src/assets/images/bg3.png) 
+
+![image 1](./src/assets/images/bg3.png)
 ---
 
 ## 🚀 Fonctionnalités
