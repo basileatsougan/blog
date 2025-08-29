@@ -109,7 +109,7 @@
 }
 
 .submit-btn {
-  background-color: #007bff;
+  background-color: #ab7e2b;
   color: white;
   border: none;
   padding: 1rem 2rem;
@@ -121,7 +121,7 @@
 }
 
 .submit-btn:hover {
-  background-color: #0056b3;
+  background-color: #c98608;
 }
 
 /* Mobile responsive */
