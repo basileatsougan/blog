@@ -1,19 +1,42 @@
-# Blog
+# 📝 Blog
 
-Voici ma première projet perso en Angular.
+Bienvenue sur mon premier projet personnel en **Angular** !  
 
-Cela concerne un site  de blog pour tester mon apprentissage.
+Il s'agit d'un site de blog créé pour tester et améliorer mes compétences en Angular.
 
+Pour voir le site en ligne, cliquez sur le lien Vercel : [Voir le site](https://blog-three-gray-clciveec10.vercel.app/)  
 
+---
 
-## Images
+## 🌄 Aperçu du projet
 
+Voici quelques captures d'écran du site :
 
+| Accueil | Page Article | Page Blog |
+|---------|--------------|-----------|
+| ![Accueil](./src/assets/images/bg1.png) | ![Article](./src/assets/images/bg2.png) | ![Blog](./src/assets/images/bg3.png) |
 
-![image 1](./src/assets/images/bg1.png)
+---
 
-![image 2](./src/assets/images/bg2.png)
+## 🚀 Fonctionnalités
 
-![image 1](./src/assets/images/bg3.png)
+- Créé avec **Angular**
+- Navigation simple et intuitive
+- Pages de blog dynamiques
+- Interface responsive
 
-![image 1](./src/assets/images/bg3.png)
+---
+
+## 📂 Installation
+
+Si vous voulez tester le projet en local :  
+
+```bash
+# Cloner le dépôt
+git clone <https://github.com/basileatsougan/blog>
+
+# Installer les dépendances
+npm install
+
+# Lancer le serveur
+ng serve
