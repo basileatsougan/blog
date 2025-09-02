@@ -42,13 +42,16 @@ Voici quelques captures d'écran du site :
 ```bash
 git clone <https://github.com/basileatsougan/blog>
 cd blog
+```
 
 ### 2. Lancer le frontend (Angular)
+```bash
 cd frontend
 npm install
 ng serve
 
 ➡️ Accéder à http://localhost:4200
+```
 
 ### 3. Lancer le backend (NestJS)
 ```bash
@@ -57,11 +60,12 @@ npm install
 npm run start:dev
 
 ➡️ API disponible sur http://localhost:3000
+```
 ---
 
 ## 🛠️ Technologies utilisées
 
-Frontend : Angular, TypeScript, HTML, SCSS
+Frontend : Angular, TypeScript, HTML, CSS
 
 Backend : NestJS, TypeScript, Node.js
 
