@@ -19,7 +19,7 @@
             
             <div class="contact-item">
               <h3>Téléphone</h3>
-              <p>+228 97 30 98 47</p>
+              <p>+228 00 00 00 28</p>
             </div>
             
             <div class="contact-item">
@@ -71,8 +71,15 @@
                 required></textarea>
             </div>
 
-            <button type="submit" class="submit-btn">Envoyer le message</button>
+            <button type="submit" class="submit-btn" [disabled]="isSubmitting">
+              {{ isSubmitting ? 'Envoi en cours...' : 'Envoyer le message' }}
+            </button>
           </form>
+
+          <!-- Submission Status Messages -->
+          <div *ngIf="submitMessage" class="submit-status" [class.success]="submitSuccess" [class.error]="!submitSuccess">
+            <p>{{ submitMessage }}</p>
+          </div>
         </div>
       </div>
     </div>
