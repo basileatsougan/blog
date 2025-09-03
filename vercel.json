@@ -1,6 +1,0 @@
-{
-  "buildCommand": "cd frontend && npm install && ng build",
-  "outputDirectory": "frontend/dist/blog",
-  "devCommand": "cd frontend && ng serve --port $PORT",
-  "installCommand": "cd frontend && npm install"
-}
