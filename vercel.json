@@ -1,6 +1,4 @@
 {
-  "buildCommand": "cd frontend && npm install && ng build",
-  "outputDirectory": "frontend/dist/blog/browser",
   "rewrites": [
     {
       "source": "/(.*)",
