@@ -1,7 +1,6 @@
 {
-  "buildCommand": "cd frontend && npm ci && ng build",
+  "buildCommand": "cd frontend && npm install && ng build",
   "outputDirectory": "frontend/dist/blog/browser",
-  "installCommand": "cd frontend && npm ci",
   "rewrites": [
     {
       "source": "/(.*)",
