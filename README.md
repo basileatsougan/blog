@@ -4,7 +4,7 @@ Bienvenue sur mon premier projet personnel en **Angular** !
 
 Il s'agit d'un site de blog créé pour tester et améliorer mes compétences en Angular.
 
-Pour voir le site en ligne, cliquez sur le lien Vercel : <a href="https://blog-three-gray-clciveec10.vercel.app/" target="_blank" rel="noopener noreferrer">Voir le site</a>
+Pour voir le site en ligne, cliquez sur le lien Vercel : [Voir le site](https://blog-three-gray-clciveec10.vercel.app/)  
 
 ---
 
