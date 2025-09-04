@@ -23,6 +23,9 @@ async function bootstrap() {
     origin: [
       'http://localhost:4200', // Angular dev
       process.env.FRONTEND_URL, // Vercel frontend from env
+      // Additional allowed origins
+      'https://blog-three-gray-clciveec10.vercel.app/',
+      'https://blog-git-develop-basiles-projects-b589228c.vercel.app/',
   ],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],
