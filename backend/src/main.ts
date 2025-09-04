@@ -22,7 +22,7 @@ async function bootstrap() {
   app.enableCors({
     origin: [
       'http://localhost:4200', // Angular dev
-      process.env.FRONTEND_URL, // Vercel frontend in prod
+      process.env.FRONTEND_URL, // Vercel frontend from env
   ],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],
